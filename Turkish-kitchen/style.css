@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(242, 242, 245);
+  font-family: "Zilla Slab", serif;
+}
+
+h2 {
+  font-family: "Great Vibes", cursive;
+  font-size: 5rem;
+  text-align: center;
+  font-weight: bold;
+  color: #e63225;
+}
+
+h4{
+  font-weight: bold;
+  
+}
+.menu {
+  margin-top: 20px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+}
+.btn-item {
+  margin-left: 15px;
+}
+
+.photo {
+  width: 30%;
+  height: 175px;
+  object-fit: cover;
+  border: 0.25rem solid black;
+  border-radius: 10px; 
+}
+p{
+  background-color: rgb(60, 122, 101);
+  border-radius: 15px;
+  padding: 10px;
+  color: white;
+}
+.photo{
+  margin-top: 10px;  
+}
+
+.price{
+  color: rgb(23, 110, 23);  
+
+}
+.menu-item .item-info{
+  display: flex;
+  flex-direction: column;
+}
+
+.price-info{
+  display: flex;
+  justify-content: space-between;
+}
+.menu-item {
+  display:flex;  
+  max-width: 49%;  
+  margin-bottom: 20px;
+  gap: 20px;
+  align-items: center;
+}
+.menu-items {
+  display: flex;  
+  margin: 20px 0;
+  gap: 20px;
+  border: none;
+}
+.menu-info {
+  margin-left: 20px;
+  width: 100%;
+}
+.menu-title {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+
+h4 {
+  color: #e00a00;
+}
+
+.menu-text {
+  padding-top: 20px;
+}
+
+.modal{
+  align-items: center;
+  justify-content: center;
+}
+
+.modalButton{
+  display: flex;
+  justify-content: center;
+  gap:20px
+}
+
+#addButton i.fa-circle-plus {
+  margin-right: 10px; 
+}
